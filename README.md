@@ -1,0 +1,1 @@
+### WatchKit page-based navigation example for my blog [iWatch App Development Basic 2](http://nilstack.github.io/2014/11/24/iWatch-App-Development-Basic-2/).

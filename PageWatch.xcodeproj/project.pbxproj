@@ -14,6 +14,16 @@
 		B86798811A231B7300CDEB85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86798801A231B7300CDEB85 /* Images.xcassets */; };
 		B86798841A231B7300CDEB85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86798821A231B7300CDEB85 /* LaunchScreen.xib */; };
 		B86798901A231B7300CDEB85 /* PageWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B867988F1A231B7300CDEB85 /* PageWatchTests.m */; };
+		B8CAD1321A231C08008D1EA0 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CAD1311A231C08008D1EA0 /* WatchKit.framework */; };
+		B8CAD1391A231C08008D1EA0 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CAD1381A231C08008D1EA0 /* InterfaceController.m */; };
+		B8CAD13C1A231C08008D1EA0 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CAD13B1A231C08008D1EA0 /* NotificationController.m */; };
+		B8CAD13E1A231C08008D1EA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CAD13D1A231C08008D1EA0 /* Images.xcassets */; };
+		B8CAD1421A231C08008D1EA0 /* PageWatch Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = B8CAD1411A231C08008D1EA0 /* PageWatch Watch App.app */; };
+		B8CAD1491A231C08008D1EA0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CAD1481A231C08008D1EA0 /* Interface.storyboard */; };
+		B8CAD14B1A231C08008D1EA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CAD14A1A231C08008D1EA0 /* Images.xcassets */; };
+		B8CAD14E1A231C08008D1EA0 /* PageWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B8CAD12F1A231C08008D1EA0 /* PageWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B8CAD1581A2326CA008D1EA0 /* SecondInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CAD1571A2326CA008D1EA0 /* SecondInterfaceController.m */; };
+		B8CAD15B1A232701008D1EA0 /* ThirdInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CAD15A1A232701008D1EA0 /* ThirdInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +34,35 @@
 			remoteGlobalIDString = B867986F1A231B7300CDEB85;
 			remoteInfo = PageWatch;
 		};
+		B8CAD1431A231C08008D1EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86798681A231B7300CDEB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CAD1401A231C08008D1EA0;
+			remoteInfo = "PageWatch Watch App";
+		};
+		B8CAD14C1A231C08008D1EA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86798681A231B7300CDEB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CAD12E1A231C08008D1EA0;
+			remoteInfo = "PageWatch WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B8CAD1551A231C08008D1EA0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B8CAD14E1A231C08008D1EA0 /* PageWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B86798701A231B7300CDEB85 /* PageWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +78,23 @@
 		B86798891A231B7300CDEB85 /* PageWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B867988E1A231B7300CDEB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B867988F1A231B7300CDEB85 /* PageWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageWatchTests.m; sourceTree = "<group>"; };
+		B8CAD12F1A231C08008D1EA0 /* PageWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PageWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CAD1311A231C08008D1EA0 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		B8CAD1351A231C08008D1EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CAD1361A231C08008D1EA0 /* PushNotificationPayload.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PushNotificationPayload.json; sourceTree = "<group>"; };
+		B8CAD1371A231C08008D1EA0 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B8CAD1381A231C08008D1EA0 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B8CAD13A1A231C08008D1EA0 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		B8CAD13B1A231C08008D1EA0 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		B8CAD13D1A231C08008D1EA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8CAD1411A231C08008D1EA0 /* PageWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PageWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CAD1471A231C08008D1EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CAD1481A231C08008D1EA0 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		B8CAD14A1A231C08008D1EA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8CAD1561A2326CA008D1EA0 /* SecondInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondInterfaceController.h; sourceTree = "<group>"; };
+		B8CAD1571A2326CA008D1EA0 /* SecondInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondInterfaceController.m; sourceTree = "<group>"; };
+		B8CAD1591A232701008D1EA0 /* ThirdInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdInterfaceController.h; sourceTree = "<group>"; };
+		B8CAD15A1A232701008D1EA0 /* ThirdInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdInterfaceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +112,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8CAD12C1A231C08008D1EA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CAD1321A231C08008D1EA0 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +128,9 @@
 			children = (
 				B86798721A231B7300CDEB85 /* PageWatch */,
 				B867988C1A231B7300CDEB85 /* PageWatchTests */,
+				B8CAD1331A231C08008D1EA0 /* PageWatch WatchKit Extension */,
+				B8CAD1451A231C08008D1EA0 /* PageWatch Watch App */,
+				B8CAD1301A231C08008D1EA0 /* Frameworks */,
 				B86798711A231B7300CDEB85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +140,8 @@
 			children = (
 				B86798701A231B7300CDEB85 /* PageWatch.app */,
 				B86798891A231B7300CDEB85 /* PageWatchTests.xctest */,
+				B8CAD12F1A231C08008D1EA0 /* PageWatch WatchKit Extension.appex */,
+				B8CAD1411A231C08008D1EA0 /* PageWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +187,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8CAD1301A231C08008D1EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8CAD1311A231C08008D1EA0 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8CAD1331A231C08008D1EA0 /* PageWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B8CAD1371A231C08008D1EA0 /* InterfaceController.h */,
+				B8CAD1381A231C08008D1EA0 /* InterfaceController.m */,
+				B8CAD1561A2326CA008D1EA0 /* SecondInterfaceController.h */,
+				B8CAD1571A2326CA008D1EA0 /* SecondInterfaceController.m */,
+				B8CAD1591A232701008D1EA0 /* ThirdInterfaceController.h */,
+				B8CAD15A1A232701008D1EA0 /* ThirdInterfaceController.m */,
+				B8CAD13A1A231C08008D1EA0 /* NotificationController.h */,
+				B8CAD13B1A231C08008D1EA0 /* NotificationController.m */,
+				B8CAD13D1A231C08008D1EA0 /* Images.xcassets */,
+				B8CAD1341A231C08008D1EA0 /* Supporting Files */,
+			);
+			path = "PageWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B8CAD1341A231C08008D1EA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8CAD1351A231C08008D1EA0 /* Info.plist */,
+				B8CAD1361A231C08008D1EA0 /* PushNotificationPayload.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8CAD1451A231C08008D1EA0 /* PageWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B8CAD1481A231C08008D1EA0 /* Interface.storyboard */,
+				B8CAD14A1A231C08008D1EA0 /* Images.xcassets */,
+				B8CAD1461A231C08008D1EA0 /* Supporting Files */,
+			);
+			path = "PageWatch Watch App";
+			sourceTree = "<group>";
+		};
+		B8CAD1461A231C08008D1EA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8CAD1471A231C08008D1EA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +249,12 @@
 				B867986C1A231B7300CDEB85 /* Sources */,
 				B867986D1A231B7300CDEB85 /* Frameworks */,
 				B867986E1A231B7300CDEB85 /* Resources */,
+				B8CAD1551A231C08008D1EA0 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B8CAD14D1A231C08008D1EA0 /* PBXTargetDependency */,
 			);
 			name = PageWatch;
 			productName = PageWatch;
@@ -157,6 +279,39 @@
 			productReference = B86798891A231B7300CDEB85 /* PageWatchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		B8CAD12E1A231C08008D1EA0 /* PageWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CAD1541A231C08008D1EA0 /* Build configuration list for PBXNativeTarget "PageWatch WatchKit Extension" */;
+			buildPhases = (
+				B8CAD12B1A231C08008D1EA0 /* Sources */,
+				B8CAD12C1A231C08008D1EA0 /* Frameworks */,
+				B8CAD12D1A231C08008D1EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8CAD1441A231C08008D1EA0 /* PBXTargetDependency */,
+			);
+			name = "PageWatch WatchKit Extension";
+			productName = "PageWatch WatchKit Extension";
+			productReference = B8CAD12F1A231C08008D1EA0 /* PageWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		B8CAD1401A231C08008D1EA0 /* PageWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CAD1531A231C08008D1EA0 /* Build configuration list for PBXNativeTarget "PageWatch Watch App" */;
+			buildPhases = (
+				B8CAD13F1A231C08008D1EA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PageWatch Watch App";
+			productName = "PageWatch Watch App";
+			productReference = B8CAD1411A231C08008D1EA0 /* PageWatch Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -172,6 +327,12 @@
 					B86798881A231B7300CDEB85 = {
 						CreatedOnToolsVersion = 6.1;
 						TestTargetID = B867986F1A231B7300CDEB85;
+					};
+					B8CAD12E1A231C08008D1EA0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B8CAD1401A231C08008D1EA0 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -190,6 +351,8 @@
 			targets = (
 				B867986F1A231B7300CDEB85 /* PageWatch */,
 				B86798881A231B7300CDEB85 /* PageWatchTests */,
+				B8CAD12E1A231C08008D1EA0 /* PageWatch WatchKit Extension */,
+				B8CAD1401A231C08008D1EA0 /* PageWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -209,6 +372,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CAD12D1A231C08008D1EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CAD1421A231C08008D1EA0 /* PageWatch Watch App.app in Resources */,
+				B8CAD13E1A231C08008D1EA0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CAD13F1A231C08008D1EA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CAD1491A231C08008D1EA0 /* Interface.storyboard in Resources */,
+				B8CAD14B1A231C08008D1EA0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +414,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B8CAD12B1A231C08008D1EA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CAD1581A2326CA008D1EA0 /* SecondInterfaceController.m in Sources */,
+				B8CAD15B1A232701008D1EA0 /* ThirdInterfaceController.m in Sources */,
+				B8CAD13C1A231C08008D1EA0 /* NotificationController.m in Sources */,
+				B8CAD1391A231C08008D1EA0 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +432,16 @@
 			isa = PBXTargetDependency;
 			target = B867986F1A231B7300CDEB85 /* PageWatch */;
 			targetProxy = B867988A1A231B7300CDEB85 /* PBXContainerItemProxy */;
+		};
+		B8CAD1441A231C08008D1EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CAD1401A231C08008D1EA0 /* PageWatch Watch App */;
+			targetProxy = B8CAD1431A231C08008D1EA0 /* PBXContainerItemProxy */;
+		};
+		B8CAD14D1A231C08008D1EA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CAD12E1A231C08008D1EA0 /* PageWatch WatchKit Extension */;
+			targetProxy = B8CAD14C1A231C08008D1EA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -393,6 +595,66 @@
 			};
 			name = Release;
 		};
+		B8CAD14F1A231C08008D1EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PageWatch WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8CAD1501A231C08008D1EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "PageWatch WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B8CAD1511A231C08008D1EA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = PageWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "PageWatch Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		B8CAD1521A231C08008D1EA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = PageWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "PageWatch Watch App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -412,12 +674,30 @@
 				B86798951A231B7300CDEB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B86798961A231B7300CDEB85 /* Build configuration list for PBXNativeTarget "PageWatchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B86798971A231B7300CDEB85 /* Debug */,
 				B86798981A231B7300CDEB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CAD1531A231C08008D1EA0 /* Build configuration list for PBXNativeTarget "PageWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CAD1511A231C08008D1EA0 /* Debug */,
+				B8CAD1521A231C08008D1EA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8CAD1541A231C08008D1EA0 /* Build configuration list for PBXNativeTarget "PageWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CAD14F1A231C08008D1EA0 /* Debug */,
+				B8CAD1501A231C08008D1EA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
